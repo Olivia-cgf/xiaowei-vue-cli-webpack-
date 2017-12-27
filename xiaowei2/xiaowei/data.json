@@ -1,0 +1,173 @@
+{
+
+    "selftimer": 
+        {
+            "name": ["每天", "云冲印", "小薇在哪"],
+            "area": ["深圳","东莞","广州"],
+            "imagesrc": [
+                "http://www.518mgao.com/file/uploadimage/updata/2017/08/31/201708311100580072.jpg",
+                "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1504265748225&di=fba29600e7eab89194d4ab7877018391&imgtype=0&src=http%3A%2F%2Fy.zdmimg.com%2F201310%2F28%2F1b56e3c4.jpg_e600.jpg",
+                "http://www.518mgao.com/file/uploadimage/updata/2017/08/31/201708311025310120.jpg",
+                "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1504265748225&di=fba29600e7eab89194d4ab7877018391&imgtype=0&src=http%3A%2F%2Fy.zdmimg.com%2F201310%2F28%2F1b56e3c4.jpg_e600.jpg",
+                "http://www.518mgao.com/file/uploadimage/updata/2017/08/30/201708302207090692.jpg",
+                "http://www.518mgao.com/file/uploadimage/updata/2017/08/31/201708311002060605.jpg",
+                "http://www.518mgao.com/file/uploadimage/updata/2017/08/31/201708311106340727.jpg",
+                "http://www.518mgao.com/file/uploadimage/updata/2017/08/31/201708311100580072.jpg",
+                "http://www.518mgao.com/file/uploadimage/updata/2017/08/31/201708311100580072.jpg",
+                "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1504265748225&di=fba29600e7eab89194d4ab7877018391&imgtype=0&src=http%3A%2F%2Fy.zdmimg.com%2F201310%2F28%2F1b56e3c4.jpg_e600.jpg",
+                "http://www.518mgao.com/file/uploadimage/updata/2017/08/31/201708311025310120.jpg",
+                "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1504265748225&di=fba29600e7eab89194d4ab7877018391&imgtype=0&src=http%3A%2F%2Fy.zdmimg.com%2F201310%2F28%2F1b56e3c4.jpg_e600.jpg",
+                "http://www.518mgao.com/file/uploadimage/updata/2017/08/30/201708302207090692.jpg",
+                "http://www.518mgao.com/file/uploadimage/updata/2017/08/31/201708311002060605.jpg",
+                "http://www.518mgao.com/file/uploadimage/updata/2017/08/31/201708311106340727.jpg",
+                "http://www.518mgao.com/file/uploadimage/updata/2017/08/31/201708311100580072.jpg",
+                "http://www.518mgao.com/file/uploadimage/updata/2017/08/31/201708311100580072.jpg",
+                "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1504265748225&di=fba29600e7eab89194d4ab7877018391&imgtype=0&src=http%3A%2F%2Fy.zdmimg.com%2F201310%2F28%2F1b56e3c4.jpg_e600.jpg",
+                "http://www.518mgao.com/file/uploadimage/updata/2017/08/31/201708311025310120.jpg",
+                "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1504265748225&di=fba29600e7eab89194d4ab7877018391&imgtype=0&src=http%3A%2F%2Fy.zdmimg.com%2F201310%2F28%2F1b56e3c4.jpg_e600.jpg",
+                "http://www.518mgao.com/file/uploadimage/updata/2017/08/30/201708302207090692.jpg",
+                "http://www.518mgao.com/file/uploadimage/updata/2017/08/31/201708311002060605.jpg",
+                "http://www.518mgao.com/file/uploadimage/updata/2017/08/31/201708311106340727.jpg",
+                "http://www.518mgao.com/file/uploadimage/updata/2017/08/31/201708311100580072.jpg",
+                "http://www.518mgao.com/file/uploadimage/updata/2017/08/31/201708311100580072.jpg",
+                "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1504265748225&di=fba29600e7eab89194d4ab7877018391&imgtype=0&src=http%3A%2F%2Fy.zdmimg.com%2F201310%2F28%2F1b56e3c4.jpg_e600.jpg",
+                "http://www.518mgao.com/file/uploadimage/updata/2017/08/31/201708311025310120.jpg",
+                "https://timgsa.baidu.com/timg?image&quality=80&size=b9999_10000&sec=1504265748225&di=fba29600e7eab89194d4ab7877018391&imgtype=0&src=http%3A%2F%2Fy.zdmimg.com%2F201310%2F28%2F1b56e3c4.jpg_e600.jpg",
+                "http://www.518mgao.com/file/uploadimage/updata/2017/08/30/201708302207090692.jpg",
+                "http://www.518mgao.com/file/uploadimage/updata/2017/08/31/201708311002060605.jpg",
+                "http://www.518mgao.com/file/uploadimage/updata/2017/08/31/201708311106340727.jpg",
+                "http://www.518mgao.com/file/uploadimage/updata/2017/08/31/201708311100580072.jpg"
+            ],
+            "cloneSrc": [
+                {
+                    "imagesrc": "static/image/8.png",
+                    "description": "照片冲印"
+                },
+                {
+                    "imagesrc": "static/image/9.png",
+                    "description": "相片书"
+                },
+                {
+                    "imagesrc": "static/image/10.png",
+                    "description": "水晶版画"
+                },
+                {
+                    "imagesrc": "static/image/11.png",
+                    "description": "相框"
+                },
+                {
+                    "imagesrc": "static/image/12.png",
+                    "description": "台历挂历"
+                },
+                {
+                    "imagesrc": "static/image/13.png",
+                    "description": "创意礼品"
+                }
+            ]
+        },
+    "winning": {
+            "name": ["每天", "试试手气", "去哪抽奖"],
+            "lotteryImg": [
+                "http://www.lottery.gov.cn/upload/20170705/20170705134544174.jpg",
+                "http://www.lottery.gov.cn/upload/20170705/20170705134544174.jpg",
+                "http://www.lottery.gov.cn/upload/20170705/20170705134544174.jpg",
+                "http://www.lottery.gov.cn/upload/20170705/20170705134544174.jpg",
+                "http://www.lottery.gov.cn/upload/20170705/20170705134544174.jpg"
+            ]
+     },
+     "activity": {
+        "name": ["活动"],
+        "albumn": [
+            {
+                "type": 0,
+                "imagesrc": "./img/1.jpg",
+                "lovenum": 10,
+                "title": "阳光",
+                "description": "曾经的曾经我们还是纯洁的少年， 每天都像阳光一样明媚芳香",
+                 "button": "详情"
+            },
+            {
+                "type": 0,
+                "imagesrc": "./img/1.jpg",
+                "lovenum": 10,
+                "title": "阳光",
+                "description": "曾经的曾经我们还是纯洁的少年， 每天都像阳光一样明媚芳香",
+                 "button": "详情"
+            },
+            {
+                "type": 0,
+                "imagesrc": "./img/1.jpg",
+                "lovenum": 10,
+                "title": "阳光",
+                "description": "曾经的曾经我们还是纯洁的少年， 每天都像阳光一样明媚芳香",
+                 "button": "详情"
+            }
+        ],
+        "going-display": [
+          {
+            "imagesrc": "./img/2.jpg",
+            "lovenum": 39,
+            "description": "亲子时光"
+          }
+        ]
+     },
+     "my": {
+        "name": ["我的"],
+        "adminInfo": {
+            "name": "Sherry",
+            "introduce": "完美主义小神经！来了就点个赞吧",
+            "userImg": "https://ss1.bdstatic.com/70cFuXSh_Q1YnxGkpoWK1HF6hhy/it/u=397751603,3873107322&fm=117&gp=0.jpg",
+            "lovenum": 13,
+            "timeLine":[
+               {
+                 "time": "2017.07",
+                 "imgArr": [
+                    {
+                        "pic": "http://www.518mgao.com/file/uploadimage/updata/2017/08/30/201708301748330113.jpg",
+                        "pank": "1"
+                    },
+                    {
+                        "pic": "http://www.518mgao.com/file/uploadimage/updata/2017/08/30/201708301748330113.jpg",
+                        "pank": "0"
+                    }
+                 ]
+               },
+               {
+                 "time": "2017.06",
+                 "imgArr": [
+                    {
+                        "pic": "http://www.518mgao.com/file/uploadimage/updata/2017/08/30/201708301748330113.jpg",
+                        "pank": "1"
+                    },
+                    {
+                        "pic": "http://www.518mgao.com/file/uploadimage/updata/2017/09/08/201709081040410537.jpg",
+                        "pank": "2"
+                    },
+                    {
+                        "pic": "http://www.518mgao.com/file/uploadimage/updata/2017/09/08/201709081040410537.jpg",
+                        "pank": "3"
+                    }
+                 ]
+               },
+               {
+                 "time": "2017.05",
+                 "imgArr": [
+                    {
+                        "pic": "http://www.518mgao.com/file/uploadimage/updata/2017/09/08/201709081032190930.jpg",
+                        "pank": "1"
+                    },
+                    {
+                        "pic": "http://www.518mgao.com/file/uploadimage/updata/2017/09/08/201709081010250388.jpg",
+                        "pank": "2"
+                    },
+                    {
+                        "pic": "http://www.518mgao.com/file/uploadimage/updata/2017/09/08/201709081049000031.jpg",
+                        "pank": "3"
+                    }
+                 ]
+               }
+            ]
+        }
+     }
+
+}

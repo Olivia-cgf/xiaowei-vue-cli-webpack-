@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="shortcut icon" href="./static/image/favicon.ico">
+    <title>xiaowei</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,maximum-scale=1.0,minimum-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="static/css/reset.css">
+    <script src="static/js/test.js"></script>
+    <script type="text/javascript" src="http://api.map.baidu.com/api?v=2.0&ak=mmDEHFQXmpy7ZR8P6xXx0ni2AF2vDmRX"></script>
+     <script type="text/javascript" src="http://qzonestyle.gtimg.cn/qzone/openapi/qc_loader.js" data-appid="101368749" data-redirecturi="" charset="utf-8"></script>
+     <script src="http://tjs.sjs.sinajs.cn/open/api/js/wb.js?appkey=1252785351" type="text/javascript" charset="utf-8"></script>
+  </head>
+  <body>
+    <div id="app">
+     
+    </div>
+    <!-- built files will be auto injected -->
+  <script type="text/javascript">
+    // qq登录
+   //调用QC.Login方法，指定btnId参数将按钮绑定在容器节点中
+   QC.Login({
+       //btnId：插入按钮的节点id，必选
+       btnId:"qqLoginBtn",    
+       //用户需要确认的scope授权项，可选，默认all
+       scope:"all",
+       //按钮尺寸，可用值[A_XL| A_L| A_M| A_S|  B_M| B_S| C_S]，可选，默认B_S
+       size: "C_S"
+   }, function(reqData, opts){
+       var dom = document.getElementById("login"),
+       _logoutTemplate=[
+            //头像
+            '<img src="{figureurl}" class="{size_key}" style="width: 100%;border-radius: 50%;"  class="admin"/>',
+       ].join("");
+       dom && (dom.innerHTML = QC.String.format(_logoutTemplate, {
+           nickname : QC.String.escHTML(reqData.nickname), //做xss过滤
+           figureurl : reqData.figureurl_1
+       }));
+   }, function(opts){//注销成功
+         alert('QQ登录 注销成功');
+   }
+);
+var paras = {};
+
+
+  if(QC.Login.check()){//如果已登录
+  QC.Login.getMe(function(openId, accessToken){
+    // alert(["当前登录用户的", "openId为："+openId, "accessToken为："+accessToken].join("\n"));
+  });
+}
+
+ 
+
+</script>
+  </body>
+</html>

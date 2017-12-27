@@ -1,0 +1,251 @@
+.activityDetail
+    margin-left: 100px
+    .wrapper
+       width: 1100px
+       margin-left: 12px
+       margin-top: 80px
+       .title
+            font-size: 14px
+            color: #333333
+            text-align: center
+            margin: 0px auto 30px
+        .pic_gallery
+           width: 100%
+           display: flex
+           flex-flow: wrap
+           margin-bottom: 20px
+           .add
+               width: 260px
+               height: 260px
+               position:relative
+            img
+               width: 260px
+               height: 260px
+             #case
+               position: absolute
+               left: 0
+               top: 0
+               right: 0
+               bottom: 0
+               margin: auto
+               width: 160px
+               height: 40px
+               border: 1px solid #fff
+               font-weight: 700
+               .legend
+                    font-size: 14px
+                    color: #fff
+                    padding: 0 10px
+                 b
+                    font-size: 18px
+                    padding-right: 2px
+               .join
+                    background: #fca830
+                    font-size: 14px
+                    color: #fff
+                    width: 100px
+                    height: 30px
+                    border-radius: 5px
+                    line-height: 30px
+                    text-align: center
+                    margin: 10px auto
+           .picture
+               width: 822px
+               li
+                   width: 125px
+                   height: 125px
+                   margin: 0 10px 10px 0px
+                   float: left
+               li:nth-child(7),li:nth-child(1)
+                   margin-left: 10px
+                a
+                   display:flex
+                   width: 125px
+                   height: 125px
+                  img
+                    width: 125px
+                    height: 125px
+            .picture.bottom
+                width: 1100px
+                li:nth-child(7),li:nth-child(1)
+                    margin-left: 0
+    .mask
+      position: fixed
+      left: 100px
+      top: 0px
+      width: 100%
+      height: 100%
+      background: rgba(0,0,0,0.2)
+    .upload
+      width: 670px
+      background: #fff
+      position: fixed
+      left: 50%
+      top: 50%
+      transform: translate(-50%, -50%)
+      padding: 15px
+      border-radius: 5px
+      .title
+        color:#333333
+        font-size: 14px
+        border-bottom:1px solid #ededed
+        overflow: hidden
+        display: flex
+        justify-content: space-between
+        align-items: center
+        border-bottom: 1px solid #ccc
+        height: 18px
+        padding-bottom: 15px
+        h3
+          color:#999999
+          font-size: 14px
+          padding: 15px 0
+          float: left
+        .icon-guanbi
+          color:#999999
+          font-size: 14px
+          text-algin: right
+          cursor: pointer
+      .drag
+          text-align: center
+          margin: auto
+          position: relative
+          .tip_area
+            padding-top: 60px
+            .icon-xiangji
+                position: relative
+                overflow: hidden
+                font-size: 40px
+                color: #999
+            .explanate
+              color: #333333
+              font-size: 14px
+              display: block
+              line-height: 20px
+              margin-top: 10px
+            .limit
+              color: #9a9a9a
+              font-size: 12px
+              display: block
+              margin-bottom: 40px
+          input[type="file"]
+            width: 100%
+            height: 100%
+            background: #f00
+            position: absolute
+            left: 0
+            top: 0
+            opacity: 0
+            cursor: pointer
+          .preview
+            width: 180px
+            height: 180px
+            background: #fff
+            margin: 15px auto
+            border: 1px solid #ccc
+            overflow: hidden
+            img
+               display: block
+      .dragpic
+          width: 100%
+          height: 100%
+          position: absolute
+          left: 0
+          top: 0
+          z-index: 5
+          opacity: 0
+      .tip
+          font-size: 12px
+          color: #9a9a9a
+          margin-bottom: 50px
+          text-align: center
+          display: block
+   .choose
+     h2
+       text-align:center
+       color: #333333
+      .swpper
+        width: 100%
+        height: 193px
+        .button
+              display: flex
+              justify-content: center
+              .confirm
+                  padding: 10px 40px
+                  background: #dc4242
+                  color: #fff
+                  outline: none
+                  border-radius: 5px
+                  border: 0
+                  font-size: 14px
+              .cancle
+                 color: #333333
+                 border: 1px solid #ccc
+                 border-radius: 5px
+                 background: #fff
+                 margin-left: 30px
+                 padding: 10px 20px
+// 往期花絮
+.menu-item
+    background: url('../../../static/image/add.png') no-repeat 70px 10px;
+.wrapper
+    overflow: hidden
+.iconfont.icon-f5
+    color: #dc4242
+.recent
+    li
+     float:left
+     margin: 12px 12px 0px 0
+     position: relative
+     line-height: 260px
+     height: 260px
+     text-align: center
+    .leadTitle::before
+         position: absolute
+         display: block
+         content: "旅行的意义"
+         color: #fff
+         font-size: 14px
+         background: rgba(220, 66, 66,0.27)
+         left: 0
+         top:0
+         width: 100%
+         height: 100%
+    li::before
+         position: absolute
+         display: block
+         content: ""
+         background:url("../../../static/image/no1.png")no-repeat right top
+         left: 0
+         top:0
+         width: 100%
+         height: 100%
+   li:nth-child(3)::before
+         background:url("../../../static/image/no2.png")no-repeat right top
+   li:nth-child(4)::before
+         background:url("../../../static/image/no3.png")no-repeat right top
+ .going-display
+           width: 100%
+           display: flex
+           flex-flow: wrap
+           margin-bottom: 20px
+           li
+             margin-right: 10px
+             margin-top: 10px
+           li:nth-child(4n)
+               margin-right: 0px
+             a
+                 display: block
+                 width: 260px
+                 height: 260px
+                 position: relative
+              img
+                  width:100%
+               h2
+                  font-size: 12px 
+                  color: #fff
+                  background: rgba(0,0,0,0.3)
+                  padding: 15px 10px
+                  position: absolute
+                  left: 0
+                  bottom: 0
